@@ -1,0 +1,17 @@
+services:
+  postgresql:
+    image: postgres:latest
+    container_name: pgdb
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ramos
+    ports:
+      # Host:Container
+      - "5454:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      - ./db-init:/docker-entrypoint-initdb.d
+
+volumes:
+  db_data: {}
