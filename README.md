@@ -20,12 +20,12 @@ target='_blank'>
 <img src='https://img.shields.io/badge/Video-0F0F0F?style=for-the-badge&logo=youtube&logoColor=%23FF0000'>
 </a>
 
-### How to run
+### How to run docker_demo
 
 1. Clone this repository
 
 ```bash
-git clone https://github.com/cesarmunozr/docker-demo
+git clone https://github.com/cesarmunozr/SD-2024-2.git
 ```
 
 2. Run the docker compose
