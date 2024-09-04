@@ -7,11 +7,7 @@ app = FastAPI()
 class TextModel(BaseModel):
     text: str
 
-
 redis_client =  redis.Redis(host='127.0.0.1', port=6379, decode_responses=True)
-
-
-
 
 @app.post('/text')
 def add_text(text_model: TextModel):
