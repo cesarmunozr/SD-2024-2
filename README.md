@@ -36,5 +36,5 @@ target='_blank'>
   - [docker_demo](https://github.com/cesarmunozr/SD-2024-2/tree/docker-demo)
   - [redis_partitioned](https://github.com/cesarmunozr/SD-2024-2/tree/redis-partitioned)
   - [node_api_rest](https://www.youtube.com/watch?v=BImKbdy-ubM)
-- **Pauta:**
-  - El sergio aun no me la pasa ups.
+- **Rúbrica:**
+  - [Rúbrica online](https://docs.google.com/spreadsheets/d/1UMl6OiYzh7zzJPXHGKUm7otpyRnxof2WXW6ZRPy5zpY/edit?usp=sharing)
