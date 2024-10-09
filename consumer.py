@@ -1,15 +1,14 @@
-from confluent_kafka import Consumer, KafkaException
+from confluent_kafka import Consumer
 
 # Configura el Consumer para conectarse a los brokers
 consumer_conf = {
-    'bootstrap.servers': 'localhost:9093,localhost:9095,localhost:9097',
-    'group.id': 'mi-grupo-consumidor',
+    'bootstrap.servers': 'localhost:9093',
+    'group.id': 'grupo-consumidor1',
     'auto.offset.reset': 'earliest'  # Empieza desde el principio si no hay un offset guardado
 }
 consumer = Consumer(consumer_conf)
 
-# Suscribirse al tópico "mi-topico"
-consumer.subscribe(['mi-topico'])
+consumer.subscribe(['el-topico1'])
 
 try:
     while True:
@@ -17,11 +16,9 @@ try:
         if msg is None:
             continue
         if msg.error():
-            raise KafkaException(msg.error())
-        print(f"Mensaje recibido: key={msg.key().decode('utf-8')}, value={msg.value().decode('utf-8')}")
-except KeyboardInterrupt:
-    print("Consumo interrumpido")
+            print("Consumer error: {}".format(msg.error()))
+            
+        print(f"Mensaje recibido: key={msg.key().decode('utf-8')}, value={msg.value().decode('utf-8')}, partition={msg.partition()}")
 
 finally:
-    # Cerrar el consumidor de forma segura
     consumer.close()
