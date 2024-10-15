@@ -33,7 +33,6 @@ npm run start:dev
 
 Eso es todo, happy coding. ✨ 
 
----
-
 ### Diagramas de flujo relevantes
+<img src='/docs/images/indexation-fd.png' height='100'/>
 ![alt text](/docs//images/indexation-fd.png)
