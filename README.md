@@ -1,5 +1,5 @@
 
-## 🦁🔎NestJS x ElasticSearch
+## 🦁🔎 NestJS x ElasticSearch
 
 Breve proyecto para demostrar el uso de ElasticSearch junto a NestJS. Tiene como propósito acercar a los estudiantes a la indexación de documentos.
 
