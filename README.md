@@ -35,4 +35,3 @@ Eso es todo, happy coding. ✨
 
 ### Diagramas de flujo relevantes
 <img src='/docs/images/indexation-fd.png' height='450'/>
-![alt text](/docs//images/indexation-fd.png)
