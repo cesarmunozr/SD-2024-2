@@ -1,7 +1,7 @@
 
 ## 🦁🔎 NestJS x ElasticSearch
 
-Breve proyecto para demostrar el uso de ElasticSearch junto a NestJS. Tiene como propósito acercar a los estudiantes a la indexación de documentos.
+Breve proyecto para demostrar el uso de ElasticSearch junto a NestJS. Tiene como propósito acercar a los estudiantes a la indexación de documentos, junto a su posterior análisis a través de Kibana.
 
 ### Cómo correr el proyecto
 
