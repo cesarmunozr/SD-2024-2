@@ -3,7 +3,7 @@
 
 Breve proyecto para demostrar el uso de ElasticSearch junto a NestJS. Tiene como propósito acercar a los estudiantes a la indexación de documentos.
 
-#### Cómo correr el proyecto
+### Cómo correr el proyecto
 
 Clona el repositorio
 
@@ -33,5 +33,7 @@ npm run start:dev
 
 Eso es todo, happy coding. ✨ 
 
-#### Diagramas de flujo relevantes
+---
+
+### Diagramas de flujo relevantes
 ![alt text](/docs//images/indexation-fd.png)
